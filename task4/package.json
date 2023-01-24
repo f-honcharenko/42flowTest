@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  },
+  "name": "task4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "run":"npm run build && npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
